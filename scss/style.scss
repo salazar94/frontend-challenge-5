@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url('/images/bg-mobile.png');
+  background-image: url('images/bg-mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -113,7 +113,7 @@ body {
 
 @media screen and (min-width: 726px) {
   body {
-    background-image: url('/images/bg-desktop.png');
+    background-image: url('./images/bg-desktop.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
