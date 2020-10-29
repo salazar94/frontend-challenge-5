@@ -6,9 +6,10 @@
 }
 
 body {
-  background-image: url('images/bg-mobile.png');
+  background-image: url('../images/bg-mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: var(--very-dark-blue);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -113,11 +114,10 @@ body {
 
 @media screen and (min-width: 726px) {
   body {
-    background-image: url('./images/bg-desktop.png');
+    background-image: url('../images/bg-desktop.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: contain;
-    background-color: var(--very-dark-blue);
+    background-size: contain;    
     flex-direction: row;
   }
 
